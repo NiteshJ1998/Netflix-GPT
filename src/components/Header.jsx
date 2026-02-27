@@ -2,11 +2,8 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="absolute px-8 py-4 bg-linear-to-b from black">
-      <img
-        className="w-40"
-        src="https://toppng.com/uploads/preview/netflix-logo-11609370106okqwb3asfk.png"
-      />
+    <div className="absolute px-6 py-1 z-10">
+      <img className="w-38 " src="src/assets/icons8-netflix.svg" alt="logo" />
     </div>
   );
 };
